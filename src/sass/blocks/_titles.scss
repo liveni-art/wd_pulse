@@ -1,0 +1,15 @@
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    color: $black_text_color;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    text-transform: uppercase;
+    &_left {
+        max-width: 800px;
+        font-size: 36px;
+        text-align: left;
+        color: $white-text-color;
+        text-shadow: none;
+    }
+}

@@ -1,0 +1,42 @@
+.benefits {
+    min-height: 470px;
+    background-color: $bg-main;
+    padding: 70px 0 65px 0;
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__item {
+        width: 300px;
+        padding: 0 10px 0 10px;
+    }
+    &__image-container {
+        text-align: center;
+    }
+    &__item-header {
+        margin-top: 35px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        color: $black-text-color;
+    }
+    &__item-text {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: $black-text-color;
+    }
+    &__running-link {
+        font-family: 'MuseoModerno';
+        font-weight: 400;
+        font-style: normal;
+        color: #ff0000;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}

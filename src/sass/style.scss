@@ -1,5 +1,4 @@
 @import 'base/variables';
-@import 'base/_mixins';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -8,3 +7,17 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
+// common
+@import 'base/_mixins.scss';
+@import 'blocks/_titles.scss';
+@import 'blocks/_buttons.scss';
+@import 'blocks/_forms.scss';
+// sections
+@import 'blocks/_promo.scss';
+@import 'blocks/_header.scss';
+@import 'blocks/_benefits.scss';
+@import 'blocks/_consultation.scss';
+@import 'blocks/carousel.scss';
+// media
+@import 'base/_media.scss';

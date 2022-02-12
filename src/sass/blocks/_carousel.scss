@@ -1,0 +1,52 @@
+.carousel {
+    background-color: $white;
+    padding: 81px 0;
+    &__inner {
+        margin: 0 auto;
+    }
+    .carousel-wrapper {
+        width: 750px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .slider-prev-btn,
+    .slider-next-btn {
+        position: absolute;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        background-color: $white;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .slider-next-btn {
+        right: -66px;
+        left: auto;
+    }
+    .tns-item.tns-slide-active {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .tns-horizontal.tns-subpixel>.tns-item {
+        vertical-align: middle;
+    }
+    // .tns-nav {
+    //     text-align: center;
+    //     margin: 12px 0;
+    //     &>[aria-controls] {
+    //         width: 12px;
+    //         height: 12px;
+    //         padding: 0;
+    //         margin: 0 5px;
+    //         border-radius: 50%;
+    //         // background: #ddd;
+    //         border: 0;
+    //         outline: none;
+    //     }
+    //     &>.tns-nav-active {
+    //         background: #999;
+    //     }
+    // }
+}
