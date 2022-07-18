@@ -1,0 +1,41 @@
+.review {
+    padding: 0 0 50px 0;
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &-card {
+        display: flex;
+        margin-bottom: 60px;
+        &__img-container {
+            max-height: 169px;
+            width: 169px;
+        }
+        &__content {
+            margin-left: 60px;
+        }
+        &__title {
+            font-size: 18px;
+            font-weight: 700;
+            color: $black-text-color;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 500;
+            color: #646464;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        &__descr {
+            margin-top: 10px;
+            .run-smart {
+                font-family: 'MuseoModerno';
+                font-weight: 300;
+                font-style: normal;
+            }
+        }
+    }
+}

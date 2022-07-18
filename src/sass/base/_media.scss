@@ -1,3 +1,11 @@
+.xs-visible {
+    display: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
 @media(max-width: 991px) {
     .container {
         max-width: 720px;
@@ -34,6 +42,12 @@
 }
 
 @media(max-width: 575px) {
+    .xs-hidden {
+        display: none;
+    }
+    .xs-visible {
+        display: block;
+    }
     .container {
         max-width: 300px;
     }
@@ -89,5 +103,50 @@
         &__img {
             max-width: 300px;
         }
+    }
+    .review {
+        &-card {
+            flex-direction: column;
+            align-items: center;
+            &__content {
+                margin-top: 20px;
+            }
+            &__descr {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 35px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &__tab {
+            font-size: 14px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 300px;
+            padding-top: 40px;
+        }
+        &__addr {
+            font-size: 18px;
+        }
+    }
+    .modal {
+        max-width: 300px;
+        &__close {
+            top: 10px;
+            right: 10px;
+        }
+    }
+    .feed-form {
+        max-width: 300px;
+        width: 100%;
     }
 }
