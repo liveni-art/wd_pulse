@@ -49,7 +49,7 @@
         display: block;
     }
     .container {
-        max-width: 300px;
+        max-width: 280px;
     }
     .title {
         font-size: 22px;
@@ -98,10 +98,10 @@
     .carousel {
         padding: 40px 0;
         .carousel-wrapper {
-            max-width: 300px;
+            max-width: 280px;
         }
         &__img {
-            max-width: 300px;
+            max-width: 280px;
         }
     }
     .review {
@@ -126,12 +126,16 @@
             margin-top: 30px;
         }
         &__tab {
-            font-size: 14px;
+            font-size: 12px;
+            max-width: 80px;
+            height:30px;
+            line-height: 25px;
+            margin: 0 3px;
         }
     }
     .footer {
         &__info {
-            width: 300px;
+            width: 280px;
             padding-top: 40px;
         }
         &__addr {
@@ -139,14 +143,14 @@
         }
     }
     .modal {
-        max-width: 300px;
+        max-width: 280px;
         &__close {
             top: 10px;
             right: 10px;
         }
     }
     .feed-form {
-        max-width: 300px;
+        max-width: 280px;
         width: 100%;
     }
 }
